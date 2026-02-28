@@ -1,0 +1,29 @@
+footer {
+    height: 550px;
+    margin-top: 570px;
+    background-color: #245852;
+}
+
+footer .text-content {
+    width: 1350px;
+    margin: 0 auto;
+    padding-top: 75px;
+}
+
+footer .logo {
+    font-family: "Avenir";
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+}
+
+footer .navigation-panel a {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-family: "Lato";
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    margin-top: 50px;
+}

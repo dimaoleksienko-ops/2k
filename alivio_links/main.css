@@ -1,0 +1,77 @@
+main {
+    width: 1550px;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+}
+
+.question p {
+    font-family: "Lato";
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.top-text {
+    justify-content: space-between;
+}
+
+.top-text .title p {
+    font-family: "Georgia";
+    font-weight: 700;
+    font-size: 50px;
+    color: #01996D;
+}
+
+.top-text .right-p p {
+    font-family: "Lato";
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.numerize {
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.numerize .first p,
+.numerize .second p,
+.numerize .third p{
+    font-family: "Georgia";
+    font-size: 150px;
+    color: #01996D33;
+    position: relative;
+}
+
+.numerize .first .before p,
+.numerize .second .before p,
+.numerize .third .before p {
+    font-family: "Georgia";
+    font-weight: 700;
+    font-size: 30px;
+    color: black;
+    position: absolute;
+    margin: -60px 0px 0px 88px;
+}
+
+.numerize .first .text p,
+.numerize .second .text p,
+.numerize .third .text p {
+    font-family: "Lato";
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+}
+
+.numerize img {
+    margin-top: 60px;
+    border-radius: 12px;
+}
+
+.numerize .second {
+    margin-top: 220px;
+}
+
+.numerize .third {
+    margin-top: 50px;
+}

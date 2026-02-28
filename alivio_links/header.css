@@ -1,0 +1,46 @@
+header {
+    position: relative;
+    top: 31.32px;
+    font-family: "Lato";
+    justify-content: space-between;
+    font-size: 20px;
+    width: 1550px;
+    margin: 0 auto;
+}
+
+.navigation-panel a {
+    text-decoration: none;
+    color: #292929;
+    margin-right: 100px;
+    font-weight: 500;
+}   
+
+.navigation-panel a:hover,
+.registration a:hover {
+    text-decoration: underline;
+}  
+
+.registration {
+    margin-top: -12px;
+}
+
+.registration a {
+    text-decoration: none;
+    color: #000000;
+    margin-right: 40px;
+}   
+
+.registration button {
+    border: 1px solid #01996D;
+    border-radius: 4px;
+    padding: 13px 50px;
+    background-color: #01996D;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.registration button:hover {
+    background-color: #007B57;
+    border: 1px solid #007B57;
+}
