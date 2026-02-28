@@ -1,0 +1,160 @@
+main {
+    padding-top: 85px;
+    width: 1394px;
+    margin: 0 auto;
+}
+
+main img,
+.star-on-cup {
+    animation: rightElements 0.8s ease-in-out forwards;
+}
+
+@keyframes rightElements {
+    from {
+        opacity: 0;
+        transform: translateX(125px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.starbucks-text .title {
+    font-family: "Montserrat";
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.starbucks-text .title .logo {
+    background: linear-gradient(263.46deg, #237249 3.14%, #35C66B 87.2%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.starbucks-text .ellipse {
+    background: linear-gradient(267.2deg, rgba(35, 114, 73, 0.11) 3.05%, rgba(53, 198, 107, 0.146) 40.73%);
+    width: 324px;
+    height: 324px;
+    position: absolute;
+    filter: blur(105.5px)
+}
+
+.starbucks-text .description {
+    font-family: "Montserrat";
+    font-size: 20px;
+    color: #d9d9d9;
+    margin-top: 50px;
+    line-height: 32.69px;
+}
+
+button {
+    color: white;
+    border-radius: 82.83px;
+    font-family: "Montserrat";
+    cursor: pointer;
+    height: 74.65px;
+    font-size: 24px;
+    margin-top: 50px;
+    margin-right: 15px;
+}
+
+.select-a-coffee {
+    background: linear-gradient(265.23deg, #237249 6.79%, #35C66B 97.2%);
+    color: white;
+    border-radius: 82.83px;
+    font-size: 24px;
+    font-weight: 639;
+    width: 333px;
+}
+
+.more  {
+    background-color: #121517;
+    width: 167px;
+}
+
+.counter {
+    margin-top: 35px;
+    justify-content: space-between;
+    width: 472.5px;
+    font-family: "Montserrat";
+}
+
+.counter .title-counter {
+    color: white;
+    font-size: 62px;
+}
+
+.counter .title-counter .green {
+    background: linear-gradient(265.23deg, #237249 6.79%, #35C66B 97.2%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.counter .undertitle {
+    color: #d9d9d9;
+    font-size: 20px;
+    line-height: 28.89px; 
+}
+
+.ellipse-white {
+    background: #FFFFFF0A;
+    width: 289px;
+    height: 289px;
+    position: absolute;
+    filter: blur(105.5px);
+    left: 650px;
+}
+
+.img-container {
+    position: absolute;
+    right: 475px;
+}
+
+.ellipse-white-on-cup {
+    background: #FFFFFF0A;
+    width: 229px;
+    height: 229px;
+    position: absolute;
+    filter: blur(104.5px);
+    left: 1050px;
+}
+
+.ellipse-green-on-cup {
+    background: linear-gradient(267.2deg, rgba(35, 114, 73, 0.55) 3.05%, rgba(53, 198, 107, 0.73) 40.73%);
+    width: 254px;
+    height: 254px;
+    position: absolute;
+    filter: blur(155.5px);
+    left: 1150px;
+}
+
+.star-on-cup {
+    position: absolute;
+    background: linear-gradient(267.2deg, #237249 3.05%, #35C66B 75.72%);
+    transform: rotate(-40deg);
+    box-shadow: -4.56px 15.52px 26.48px 0px #143E2875;
+    --s: 180px; 
+    width: var(--s); 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+    right: 515px; 
+    top: 155px;
+    aspect-ratio: 1;
+    --g:/calc(var(--s)*0.122) calc(var(--s)*0.122) radial-gradient(50% 50%,#000 99%,#0000 101%) no-repeat;
+    mask: calc(50% + var(--s)*0.418) calc(50% + var(--s)*0) var(--g),calc(50% + var(--s)*0.386) calc(50% + var(--s)*0.16) var(--g),calc(50% + var(--s)*0.295) calc(50% + var(--s)*0.295) var(--g),calc(50% + var(--s)*0.16) calc(50% + var(--s)*0.386) var(--g),calc(50% + var(--s)*0) calc(50% + var(--s)*0.418) var(--g),calc(50% + var(--s)*-0.16) calc(50% + var(--s)*0.386) var(--g),calc(50% + var(--s)*-0.295) calc(50% + var(--s)*0.295) var(--g),calc(50% + var(--s)*-0.386) calc(50% + var(--s)*0.16) var(--g),calc(50% + var(--s)*-0.418) calc(50% + var(--s)*0) var(--g),calc(50% + var(--s)*-0.386) calc(50% + var(--s)*-0.16) var(--g),calc(50% + var(--s)*-0.295) calc(50% + var(--s)*-0.295) var(--g),calc(50% + var(--s)*-0.16) calc(50% + var(--s)*-0.386) var(--g),calc(50% + var(--s)*0) calc(50% + var(--s)*-0.418) var(--g),calc(50% + var(--s)*0.16) calc(50% + var(--s)*-0.386) var(--g),calc(50% + var(--s)*0.295) calc(50% + var(--s)*-0.295) var(--g),calc(50% + var(--s)*0.386) calc(50% + var(--s)*-0.16) var(--g),radial-gradient(calc(var(--s)*0.457),#000 99%,#0000 101%) subtract,calc(50% + var(--s)*0.491) calc(50% + var(--s)*0.098) var(--g),calc(50% + var(--s)*0.416) calc(50% + var(--s)*0.278) var(--g),calc(50% + var(--s)*0.278) calc(50% + var(--s)*0.416) var(--g),calc(50% + var(--s)*0.098) calc(50% + var(--s)*0.491) var(--g),calc(50% + var(--s)*-0.098) calc(50% + var(--s)*0.491) var(--g),calc(50% + var(--s)*-0.278) calc(50% + var(--s)*0.416) var(--g),calc(50% + var(--s)*-0.416) calc(50% + var(--s)*0.278) var(--g),calc(50% + var(--s)*-0.491) calc(50% + var(--s)*0.098) var(--g),calc(50% + var(--s)*-0.491) calc(50% + var(--s)*-0.098) var(--g),calc(50% + var(--s)*-0.416) calc(50% + var(--s)*-0.278) var(--g),calc(50% + var(--s)*-0.278) calc(50% + var(--s)*-0.416) var(--g),calc(50% + var(--s)*-0.098) calc(50% + var(--s)*-0.491) var(--g),calc(50% + var(--s)*0.098) calc(50% + var(--s)*-0.491) var(--g),calc(50% + var(--s)*0.278) calc(50% + var(--s)*-0.416) var(--g),calc(50% + var(--s)*0.416) calc(50% + var(--s)*-0.278) var(--g),calc(50% + var(--s)*0.491) calc(50% + var(--s)*-0.098) var(--g);
+}
+
+.star-on-cup p{
+    transform: rotate(-22deg);
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 55.33px;
+    text-align: center;
+    color: white;
+}
+
